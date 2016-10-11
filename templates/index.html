@@ -3,13 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <title>Flask Test Project</title>
+    <link rel="stylesheet" href="static/myStyles.css">
 </head>
 <body>
 
 <h1>Flask Test Project</h1>
 
 <table>
+<tr>
+    <th>Hero</th>
+    <th>Homeworld</th>
+    <th>Weapon</th>
 
+
+</tr>
     {% for hero in heroes %}
 <tr>
     <td> {{ hero.name }}</td>
