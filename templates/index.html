@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Flask Test Project</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="static/myStyles.css">
 </head>
 <body>
@@ -14,9 +15,8 @@
     <th>Hero</th>
     <th>Homeworld</th>
     <th>Weapon</th>
-
-
 </tr>
+
     {% for hero in heroes %}
 <tr>
     <td> {{ hero.name }}</td>
