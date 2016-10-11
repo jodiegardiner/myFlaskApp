@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Flask Test Project</title>
+</head>
+<body>
+
+<h1>Flask Test Project</h1>
+
+<table>
+
+    {% for hero in heroes %}
+<tr>
+    <td> {{ hero.name }}</td>
+    <td>{{hero.home}}</td>
+    <td>{{hero.weapon}}</td>
+</tr>
+
+
+    {% endfor %}
+
+</table>
+
+</body>
+</html>
